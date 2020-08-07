@@ -1,0 +1,30 @@
+/*margins don't really make sense, look into later*/
+main {
+  margin: 5rem 3rem 0 1.5rem;
+  font-size: 2rem;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  border: 1px solid black;
+  text-align: center;
+}
+.wristInjuries {
+  background: linear-gradient(35deg, #ccffff, #ffcccc);
+  border: 1px solid black;
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+.shoulderInjuries {
+  background: linear-gradient(35deg, #ccffff, #ffcccc);
+  border: 1px solid black;
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+
+.lowBackInjuries {
+  background: linear-gradient(35deg, #ccffff, #ffcccc);
+  border: 1px solid black;
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
